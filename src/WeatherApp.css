@@ -1,0 +1,49 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #80771b;
+  border: 1px solid #ba6060;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #3f2a2a;
+}
+
+.search-button {
+  background-color: #3aba7e;
+  color: #201dd7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #72d475;
+}
+
+.error-message {
+  color: #ff0000;
+  padding: 10px 20px;
+  border: 1px solid #b81f1f;
+  background-color: #ffe6e6;
+}
+
+.weather-data {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.weather-data span {
+  font-weight: bold;
+}
